@@ -1,0 +1,188 @@
+
+.andymainfont {
+	font-size: 42pt;
+	font-style: 'Fredoka One', cursive;
+	color: white;
+}
+
+.andysecondfont {
+	font-size: 19pt;
+	font-style: 'Raleway', cursive;
+	color: #a8a8a8;
+}
+
+.andyskillsectiontext {
+	font-size: 19pt;
+	font-style: 'Raleway', cursive;
+	color: #a8a8a8;
+}
+
+.coffeeoval {
+	height: 50px;
+	width: 100px;
+	background-color: #7d4949;
+	border-radius: 50%;
+	z-index: 2;
+
+}
+
+.fa-chevron-down[aria-expanded="true"] {
+  transform: rotate(180deg) !important;
+}
+
+.fa-chevron-up {
+    transition: all 0.3s ease;
+ }
+.collapsed .fa-chevron-up {
+  transform: rotate(180deg);
+}
+
+.typed-cursor{
+		opacity: 1;
+		font-weight: 100;
+		-webkit-animation: blink 0.7s infinite;
+		-moz-animation: blink 0.7s infinite;
+		-ms-animation: blink 0.7s infinite;
+		-o-animation: blink 0.7s infinite;
+	}
+
+@media all and (min-width: 320px) and (max-width:374px) {
+  /* For phones: */
+	.andymainfont { margin-left: 0%; margin-top: -11%}
+	.andysecondfont { margin-left: 0%; font-size: 20pt;}
+	.andylinks { margin-left: 0%; font-size: 10pt;}
+	.navbartoggler {display:initial;}
+
+	.andyscroll { bottom:-6% !important; left:50%; transform: translate(-50%, -50%); }
+	
+	#homesection {background-image: url('../images/ani1.png');	background-color:#343a40; background-repeat: no-repeat; background-position: 74% 100%;}
+
+	.callmeandy { font-size: 15pt; }
+	.mugofcoffeetext { font-size: 15pt; }	
+	.andyskillsectiontext { font-size: 12pt; } 
+	#andyitanimation { width: 40% !important; }
+}
+
+
+@media all and (min-width: 375px) and (max-width:424px)   {
+  /* For phones: */
+	.andymainfont { margin-left: 0%; margin-top: -11%}
+	.andysecondfont { margin-left: 0%; font-size: 20pt;}
+	.andylinks { margin-left: 0%; font-size: 10pt;}
+	.navbartoggler {display:initial;}
+	
+	.andyscroll { bottom:-6% !important; left:50%; transform: translate(-50%, -50%); }
+
+	#homesection {background-image: url('../images/ani1.png');	background-color:#343a40; background-repeat: no-repeat; background-position: 75% 100%;}
+
+
+	.callmeandy { font-size: 19pt; }
+	.mugofcoffeetext { font-size: 19pt; }	
+	.andyskillsectiontext { font-size: 12pt; } 
+	#andyitanimation { width: 35% !important; }
+
+}
+
+@media all and (min-width: 425px) and (max-width:767px)    {
+   /*For big phones:  like iphone 13pro max */
+	.andymainfont { margin-left: 0%; margin-top: -11%}
+	.andysecondfont { margin-left: 0%; font-size: 20pt;}
+	.andylinks { margin-left: 0%; font-size: 10pt;}
+	.navbartoggler {display:initial;}
+
+	#homesection {background-size: 220%;background-image: url('../images/ani1.png');	background-color:#343a40; background-repeat: no-repeat; background-position: 75% 100%;}
+
+
+	.callmeandy { font-size: 20pt; }
+	.mugofcoffeetext { font-size: 20pt; }		
+	.andyskillsectiontext { font-size: 15pt; } 
+	#andyitanimation { width: 33% !important; }
+}
+
+@media all and (min-width: 768px) and (max-width:1023px) {
+  /* For small tablets / wide phones: */
+	.andymainfont { margin-left: -10%; margin-top: -1%; font-size: 44pt;}
+	.andysecondfont { margin-left: -10%; font-size: 20pt;}
+	.andylinks { margin-left: -10%; font-size: 10pt;}
+	.navbartoggler {display:initial;}
+
+	#homesection {background-size: 90%;background-image: url('../images/ani1.png');	background-color:#343a40; background-repeat: no-repeat; background-position: bottom right;}
+
+
+	.callmeandy { font-size: 24pt; }
+	.mugofcoffeetext { font-size: 24pt; }
+	.andyskillsectiontext { font-size: 16pt; } 
+	#andyitanimation { width: 120% !important; }	
+}
+	
+
+@media all and (min-width: 1024px) and (max-width:1279px){
+  /* For tablets: */
+	.andymainfont {margin-left: -40%; margin-top: -10%; font-size: 36pt;}
+	.andysecondfont { margin-left: -40%; font-size: 20pt;}
+	.andylinks { margin-left: -40%; font-size: 10pt;}
+	.navbartoggler {display:none;}
+
+	#homesection {background-size: 90%;background-image: url('../images/ani1.png');	background-color:#343a40; background-repeat: no-repeat; background-position: bottom right;}
+
+	
+
+}
+
+@media all and (min-width: 1280px) and (max-width:1439px) {
+  /* For tablets or small monitor : */
+	.andymainfont {margin-left: -20%; margin-top: -10%; font-size: 48pt;}
+	.andysecondfont { margin-left: -20%; font-size: 20pt;}
+	.andylinks { margin-left: -20%; font-size: 10pt;}
+	#navbar {margin-right: -10%;}
+	.navbartoggler {display:none;}
+
+	#homesection {background-size: 80%; background-image: url('../images/ani1.png');	background-color:#343a40; background-repeat: no-repeat; background-position: bottom right;}
+
+	/*.callmeandy { font-size: 2.5rem; }*/
+}
+
+@media all and (min-width: 1440px) and (max-width:1919px) {
+  /* For laptop: */
+	.andymainfont { margin-left: -30%; margin-top: -7%;font-size: 60pt;}
+	.andysecondfont { margin-left: -30%; font-size: 24pt;}
+	.andylinks { margin-left: -30%; font-size: 14pt;}
+	.andynavs {  font-size: 19pt;}
+	#navbar {margin-right: -20%;}
+	.navbartoggler {display:none;}
+
+	#homesection {background-size: 80%; background-image: url('../images/ani1.png');	background-color:#343a40; background-repeat: no-repeat; background-position: bottom right;}
+
+
+	/*.callmeandy { font-size: 2.5rem; }*/
+}
+
+@media all and (min-width: 1920px) and (max-width:2559px) {
+  /* For Average 24inc PC: */
+	.andymainfont { margin-left: -40%; margin-top: -16%; font-size: 72pt;}
+	.andysecondfont { margin-left: -40%; font-size: 28pt;}
+	.andylinks { margin-left: -40%; font-size: 18pt;}
+	.andynavs {  font-size: 20pt;}
+	#navbar {margin-right: -40%;}
+	.navbartoggler {display:none;}
+
+	#homesection {background-size: 70%;background-image: url('../images/ani1.png');	background-color:#343a40; background-repeat: no-repeat; background-position: bottom right;}
+
+
+	/*.callmeandy { font-size: 2.5rem; }*/
+}
+
+@media all and (min-width: 2560px) {
+  /* For Big Monitor PC: */
+	.andymainfont { margin-left: -50%; margin-top: -16%; font-size: 88pt;}
+	.andysecondfont { margin-left: -50%; font-size: 36pt;}
+	.andylinks { margin-left: -50%; font-size: 26pt;}
+	.andynavs {  font-size: 34pt;}
+	#navbar {margin-right: -53%;}
+	.navbartoggler {display:none;}
+
+	#homesection {background-size: 70%;background-image: url('../images/ani1.png');	background-color:#343a40; background-repeat: no-repeat; background-position: bottom right;}
+
+	/*.callmeandy { font-size: 4rem; }*/
+}
+
